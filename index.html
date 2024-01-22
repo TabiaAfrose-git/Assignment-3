@@ -20,10 +20,10 @@
     }
     </style>
 </head>
-<body class="font-manrope bg-gray-400">
+<body class="font-manrope bg-gray-400 h-full">
     <main>
         <!-- starting navbar -->
-        <nav class="mx-[135px]">
+        <nav class="mx-[135px] mb-[5%]">
             <div class="navbar bg-white">
                 <div class="navbar-start">
                   <div class="dropdown">
@@ -58,6 +58,32 @@
 
               </div>
         </nav>
+        <section class="mx-[135px] bg-white">
+            <div class="carousel w-[1170px] h-[550px]">
+                <div id="slide1" class="carousel-item relative w-full bg-[url('../Images/1.png')]">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide3" class="btn btn-circle">❮</a>
+                    <a href="#slide2" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide2" class="carousel-item relative w-full bg-[url('../Images/1.png')]">
+                  <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                    <a href="#slide1" class="btn btn-circle">❮</a>
+                    <a href="#slide3" class="btn btn-circle">❯</a>
+                  </div>
+                </div>
+                <div id="slide3" class="carousel-item relative w-full bg-[url('../Images/1.png')]">
+                    <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                      <a href="#slide2" class="btn btn-circle">❮</a>
+                      <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                  </div>
+
+              </div>
+        </section>
+        <section>
+
+        </section>
     </main>
 </body>
 </html>
