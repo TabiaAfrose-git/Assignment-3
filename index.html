@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment-3</title>
     <!-- Tailwind and DaizyUi -->
-
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 
@@ -60,20 +59,20 @@
         </nav>
         <!-- banner section -->
         <section class=" lg:mx-[135px]  bg-white mb-[5%]">
-            <div class="carousel w-[1170px] h-[550px] ">
-                <div id="slide1" class="carousel-item relative w-full bg-[url('./Images/1.png')] rounded-3xl">
+            <div class="carousel w-full lg:w-[1170px] lg:h-[550px] ">
+                <div id="slide1" class="carousel-item relative w-full h-[60vh] bg-[url('./Images/1.png')] rounded-3xl">
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a>
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div>
-                <div id="slide2" class="carousel-item relative w-full bg-[url('./Images/1.png')]">
+                <div id="slide2" class="carousel-item relative w-full h-[60vh] bg-[url('./Images/1.png')]">
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a>
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div>
-                <div id="slide3" class="carousel-item relative w-full bg-[url('./Images/1.png')]">
+                <div id="slide3" class="carousel-item relative w-full h-[60vh] bg-[url('./Images/1.png')]">
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                       <a href="#slide2" class="btn btn-circle">❮</a>
                       <a href="#slide1" class="btn btn-circle">❯</a>
@@ -140,7 +139,7 @@
 
                 <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 m-4 mt-5">
                     <!-- cols-1 -->
-                    <div class="col-span-1 bg-[url('./Images/2.png')] bg-no-repeat rounded-3xl">
+                    <div class="col-span-1 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/2.png')] bg-no-repeat rounded-3xl">
                         <div class="p-4 mt-10 ml-5">
                             <h3 class="text-white font-bold text-2xl pb-5">Junior Program</h3>
                             <p class="text-white w-[80%] text-left text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -148,7 +147,7 @@
                         </div>
                     </div>
                      <!-- cols-2 -->
-                    <div class="col-span-1 bg-[url('./Images/3.png')] bg-no-repeat rounded-3xl">
+                    <div class="col-span-1 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/3.png')] bg-no-repeat rounded-3xl">
                         <div class="p-4 mt-10 ml-5 ">
                             <h3 class="text-white font-bold text-2xl pb-5">Teenager Program</h3>
                             <p class="text-white w-[80%] text-left text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -156,7 +155,7 @@
                         </div>
                     </div>
                     <!-- col-3 -->
-                    <div class="lg:h-[338px] col-span-1 lg:col-span-2 bg-[url('./Images/4.png')] bg-no-repeat rounded-3xl mb-5">
+                    <div class="lg:h-[338px] col-span-1 lg:col-span-2 bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url('./Images/4.png')] bg-no-repeat rounded-3xl mb-5">
                         <div class="p-4 ml-5 mt-20">
                             <h3 class="text-white font-bold text-2xl pb-5">Professional Program</h3>
                             <p class="text-white w-[60%] text-left text-sm">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
@@ -225,7 +224,7 @@
                                 <h4 class="text-l font-bold text-[#FF4240] mb-5">Price - $22.00</h4>
                             </div>
                         </div>
-                        <div class="flex flex-col lg:flex-row gap-2 p-4 shadow-inner rounded-md mb-4 sm:w-[80%]">
+                        <div class="flex flex-col lg:flex-row gap-2 p-4 shadow-inner rounded-md mb-4">
                             <div ><img src="./Images/10.png" alt=""></div>
 
                             <div class="text-left pl-5 justify-center items-center shadow-zinc-900">
